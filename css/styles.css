@@ -108,10 +108,7 @@ h2 {
 }
 
 
-.contact-item {
-    font-style: normal;
-    display: block;
-}
+
 
 .logo {
     font-family: "Raleway", sans-serif;
@@ -218,11 +215,6 @@ h2 {
 }
 
 /* Contacts */
-
-.contact-item {
-    font-style: normal;
-        display: block;
-}
 
 .contacts-container {
     display: flex;
@@ -444,8 +436,8 @@ h2 {
         letter-spacing: 0.02em;
         text-align: center;
         color: #fff;
-        margin-bottom: 72px;
         margin: 0 auto;
+        margin-bottom: 72px;
             padding: 0 57px 0 52px;
 
 }
