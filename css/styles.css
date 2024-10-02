@@ -322,7 +322,6 @@ h2 {
     flex-direction: column;
     justify-content: flex-start;
     gap: 40px;
-    margin-bottom: 168px;
 }
 
 .nav-link-menu {
@@ -701,7 +700,6 @@ font-weight: 500;
         flex-wrap: wrap;
         gap: 24px;
         row-gap: 64px;
-        padding: 0 92px;
     }
 
     .team-item {
@@ -712,7 +710,6 @@ font-weight: 500;
 @media screen and (min-width: 1158px) {
     .team-list {
         flex-wrap: nowrap;
-        padding: 0 15px;
     }
 
     .team-item {
@@ -1166,9 +1163,7 @@ width: 24px;
     margin-bottom: 8px;
 }
 
-.subscribe-form {
-    gap: 24px;
-}
+
 
 .label-name {
     display: block;
@@ -1337,6 +1332,7 @@ padding: 8px 16px;
 
 .privacy-icon {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    color: #fff;
 }
 
 @media screen and (min-width: 768px) {
