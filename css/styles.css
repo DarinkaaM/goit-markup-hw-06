@@ -151,6 +151,11 @@ h2 {
         display: none;
     }
 
+.navigation,
+.contact-item {
+    display; block; 
+}
+
 .navigation {
     display: flex;
         align-items: center;
@@ -248,6 +253,7 @@ h2 {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
+        display: block;
 }
 
 }
@@ -437,7 +443,7 @@ h2 {
         color: #fff;
         margin: 0 auto;
         margin-bottom: 72px;
-            padding: 0 57px 0 52px;
+        width: 216px;
 
 }
 
@@ -563,7 +569,7 @@ font-weight: 500;
     }
 
     .benefits-item {
-        width: calc((100% - 48px) / 2);
+        width: calc((100% - 24px) / 2);
     }
 }
 
@@ -700,6 +706,7 @@ font-weight: 500;
         flex-wrap: wrap;
         gap: 24px;
         row-gap: 64px;
+        justify-content: center;
     }
 
     .team-item {
@@ -1015,9 +1022,6 @@ font-weight: 500;
         margin: 0;
     }
 
-    .button-footer {
-        margin-left: 24px;
-    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1157px) {
@@ -1218,7 +1222,7 @@ width: 24px;
 
 .input-name:focus-within+.icon-vector {
     fill: #4D5AE5;
-}
+}  
 
 .div-comment {
     margin-bottom: 16px;
